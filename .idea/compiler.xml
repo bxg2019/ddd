@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bxg-infrastructure" />
+        <module name="bxg-types" />
+        <module name="bxg-app" />
+        <module name="bxg-domain" />
+        <module name="bxg-trigger" />
+        <module name="bxg-api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bxg" options="" />
+      <module name="bxg-api" options="" />
+      <module name="bxg-app" options="" />
+      <module name="bxg-domain" options="" />
+      <module name="bxg-infrastructure" options="" />
+      <module name="bxg-trigger" options="" />
+      <module name="bxg-types" options="" />
+    </option>
+  </component>
+</project>
