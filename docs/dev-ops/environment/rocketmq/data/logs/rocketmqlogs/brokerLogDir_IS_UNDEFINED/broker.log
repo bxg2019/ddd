@@ -1,0 +1,516 @@
+2024-07-27 21:08:18 INFO main - Try to start service thread:NettyEventExecutor started:false lastThread:null
+2024-07-27 21:08:18 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2024-07-27 21:08:18 INFO main - Try to start service thread:org.apache.rocketmq.namesrv.routeinfo.BatchUnregistrationService started:false lastThread:null
+2024-07-27 21:08:18 INFO FileWatchService - FileWatchService service started
+2024-07-27 21:08:26 INFO main - brokerConfigPath=
+2024-07-27 21:08:26 INFO main - rocketmqHome=/home/app/rocketmq
+2024-07-27 21:08:26 INFO main - namesrvAddr=localhost:9876
+2024-07-27 21:08:26 INFO main - listenPort=6888
+2024-07-27 21:08:26 INFO main - brokerIP1=127.0.0.1
+2024-07-27 21:08:26 INFO main - brokerIP2=172.19.0.3
+2024-07-27 21:08:26 INFO main - recoverConcurrently=false
+2024-07-27 21:08:26 INFO main - brokerPermission=6
+2024-07-27 21:08:26 INFO main - defaultTopicQueueNums=8
+2024-07-27 21:08:26 INFO main - autoCreateTopicEnable=true
+2024-07-27 21:08:26 INFO main - clusterTopicEnable=true
+2024-07-27 21:08:26 INFO main - brokerTopicEnable=true
+2024-07-27 21:08:26 INFO main - autoCreateSubscriptionGroup=true
+2024-07-27 21:08:26 INFO main - messageStorePlugIn=
+2024-07-27 21:08:26 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
+2024-07-27 21:08:26 INFO main - traceTopicEnable=false
+2024-07-27 21:08:26 INFO main - sendMessageThreadPoolNums=4
+2024-07-27 21:08:26 INFO main - putMessageFutureThreadPoolNums=4
+2024-07-27 21:08:26 INFO main - pullMessageThreadPoolNums=32
+2024-07-27 21:08:26 INFO main - litePullMessageThreadPoolNums=32
+2024-07-27 21:08:26 INFO main - ackMessageThreadPoolNums=3
+2024-07-27 21:08:26 INFO main - processReplyMessageThreadPoolNums=32
+2024-07-27 21:08:26 INFO main - queryMessageThreadPoolNums=16
+2024-07-27 21:08:26 INFO main - adminBrokerThreadPoolNums=16
+2024-07-27 21:08:26 INFO main - clientManageThreadPoolNums=32
+2024-07-27 21:08:26 INFO main - consumerManageThreadPoolNums=32
+2024-07-27 21:08:26 INFO main - loadBalanceProcessorThreadPoolNums=32
+2024-07-27 21:08:26 INFO main - heartbeatThreadPoolNums=8
+2024-07-27 21:08:26 INFO main - recoverThreadPoolNums=32
+2024-07-27 21:08:26 INFO main - endTransactionThreadPoolNums=24
+2024-07-27 21:08:26 INFO main - flushConsumerOffsetInterval=5000
+2024-07-27 21:08:26 INFO main - flushConsumerOffsetHistoryInterval=60000
+2024-07-27 21:08:26 INFO main - rejectTransactionMessage=false
+2024-07-27 21:08:26 INFO main - fetchNameSrvAddrByDnsLookup=false
+2024-07-27 21:08:26 INFO main - fetchNamesrvAddrByAddressServer=false
+2024-07-27 21:08:26 INFO main - sendThreadPoolQueueCapacity=10000
+2024-07-27 21:08:26 INFO main - putThreadPoolQueueCapacity=10000
+2024-07-27 21:08:26 INFO main - pullThreadPoolQueueCapacity=100000
+2024-07-27 21:08:26 INFO main - litePullThreadPoolQueueCapacity=100000
+2024-07-27 21:08:26 INFO main - ackThreadPoolQueueCapacity=100000
+2024-07-27 21:08:26 INFO main - replyThreadPoolQueueCapacity=10000
+2024-07-27 21:08:26 INFO main - queryThreadPoolQueueCapacity=20000
+2024-07-27 21:08:26 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2024-07-27 21:08:26 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2024-07-27 21:08:26 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2024-07-27 21:08:26 INFO main - endTransactionPoolQueueCapacity=100000
+2024-07-27 21:08:26 INFO main - adminBrokerThreadPoolQueueCapacity=10000
+2024-07-27 21:08:26 INFO main - loadBalanceThreadPoolQueueCapacity=100000
+2024-07-27 21:08:26 INFO main - filterServerNums=0
+2024-07-27 21:08:26 INFO main - longPollingEnable=true
+2024-07-27 21:08:26 INFO main - shortPollingTimeMills=1000
+2024-07-27 21:08:26 INFO main - notifyConsumerIdsChangedEnable=true
+2024-07-27 21:08:26 INFO main - highSpeedMode=false
+2024-07-27 21:08:26 INFO main - commercialBaseCount=1
+2024-07-27 21:08:26 INFO main - commercialSizePerMsg=4096
+2024-07-27 21:08:26 INFO main - accountStatsEnable=true
+2024-07-27 21:08:26 INFO main - accountStatsPrintZeroValues=true
+2024-07-27 21:08:26 INFO main - transferMsgByHeap=true
+2024-07-27 21:08:26 INFO main - maxDelayTime=40
+2024-07-27 21:08:26 INFO main - regionId=DefaultRegion
+2024-07-27 21:08:26 INFO main - registerBrokerTimeoutMills=24000
+2024-07-27 21:08:26 INFO main - sendHeartbeatTimeoutMillis=1000
+2024-07-27 21:08:26 INFO main - slaveReadEnable=false
+2024-07-27 21:08:26 INFO main - disableConsumeIfConsumerReadSlowly=false
+2024-07-27 21:08:26 INFO main - consumerFallbehindThreshold=17179869184
+2024-07-27 21:08:26 INFO main - brokerFastFailureEnable=true
+2024-07-27 21:08:26 INFO main - waitTimeMillsInSendQueue=200
+2024-07-27 21:08:26 INFO main - waitTimeMillsInPullQueue=5000
+2024-07-27 21:08:26 INFO main - waitTimeMillsInLitePullQueue=5000
+2024-07-27 21:08:26 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2024-07-27 21:08:26 INFO main - waitTimeMillsInTransactionQueue=3000
+2024-07-27 21:08:26 INFO main - waitTimeMillsInAckQueue=3000
+2024-07-27 21:08:26 INFO main - startAcceptSendRequestTimeStamp=0
+2024-07-27 21:08:26 INFO main - traceOn=true
+2024-07-27 21:08:26 INFO main - enableCalcFilterBitMap=false
+2024-07-27 21:08:26 INFO main - rejectPullConsumerEnable=false
+2024-07-27 21:08:26 INFO main - expectConsumerNumUseFilter=32
+2024-07-27 21:08:26 INFO main - maxErrorRateOfBloomFilter=20
+2024-07-27 21:08:26 INFO main - filterDataCleanTimeSpan=86400000
+2024-07-27 21:08:26 INFO main - filterSupportRetry=false
+2024-07-27 21:08:26 INFO main - enablePropertyFilter=false
+2024-07-27 21:08:26 INFO main - compressedRegister=false
+2024-07-27 21:08:26 INFO main - forceRegister=true
+2024-07-27 21:08:26 INFO main - registerNameServerPeriod=30000
+2024-07-27 21:08:26 INFO main - brokerHeartbeatInterval=1000
+2024-07-27 21:08:26 INFO main - brokerNotActiveTimeoutMillis=10000
+2024-07-27 21:08:26 INFO main - enableNetWorkFlowControl=false
+2024-07-27 21:08:26 INFO main - enableBroadcastOffsetStore=true
+2024-07-27 21:08:26 INFO main - broadcastOffsetExpireSecond=120
+2024-07-27 21:08:26 INFO main - broadcastOffsetExpireMaxSecond=300
+2024-07-27 21:08:26 INFO main - popPollingSize=1024
+2024-07-27 21:08:26 INFO main - popPollingMapSize=100000
+2024-07-27 21:08:26 INFO main - maxPopPollingSize=100000
+2024-07-27 21:08:26 INFO main - reviveQueueNum=8
+2024-07-27 21:08:26 INFO main - reviveInterval=1000
+2024-07-27 21:08:26 INFO main - reviveMaxSlow=3
+2024-07-27 21:08:26 INFO main - reviveScanTime=10000
+2024-07-27 21:08:26 INFO main - enableSkipLongAwaitingAck=false
+2024-07-27 21:08:26 INFO main - reviveAckWaitMs=180000
+2024-07-27 21:08:26 INFO main - enablePopLog=false
+2024-07-27 21:08:26 INFO main - enablePopBufferMerge=false
+2024-07-27 21:08:26 INFO main - popCkStayBufferTime=10000
+2024-07-27 21:08:26 INFO main - popCkStayBufferTimeOut=3000
+2024-07-27 21:08:26 INFO main - popCkMaxBufferSize=200000
+2024-07-27 21:08:26 INFO main - popCkOffsetMaxQueueSize=20000
+2024-07-27 21:08:26 INFO main - enableNotifyAfterPopOrderLockRelease=true
+2024-07-27 21:08:26 INFO main - realTimeNotifyConsumerChange=true
+2024-07-27 21:08:26 INFO main - litePullMessageEnable=true
+2024-07-27 21:08:26 INFO main - syncBrokerMemberGroupPeriod=1000
+2024-07-27 21:08:26 INFO main - loadBalancePollNameServerInterval=30000
+2024-07-27 21:08:26 INFO main - cleanOfflineBrokerInterval=30000
+2024-07-27 21:08:26 INFO main - serverLoadBalancerEnable=true
+2024-07-27 21:08:26 INFO main - defaultMessageRequestMode=PULL
+2024-07-27 21:08:26 INFO main - defaultPopShareQueueNum=-1
+2024-07-27 21:08:26 INFO main - transactionTimeOut=6000
+2024-07-27 21:08:26 INFO main - transactionCheckMax=15
+2024-07-27 21:08:26 INFO main - transactionCheckInterval=60000
+2024-07-27 21:08:26 INFO main - transactionOpMsgMaxSize=4096
+2024-07-27 21:08:26 INFO main - transactionOpBatchInterval=3000
+2024-07-27 21:08:26 INFO main - aclEnable=false
+2024-07-27 21:08:26 INFO main - storeReplyMessageEnable=true
+2024-07-27 21:08:26 INFO main - enableDetailStat=true
+2024-07-27 21:08:26 INFO main - autoDeleteUnusedStats=false
+2024-07-27 21:08:26 INFO main - isolateLogEnable=false
+2024-07-27 21:08:26 INFO main - forwardTimeout=3000
+2024-07-27 21:08:26 INFO main - enableSlaveActingMaster=false
+2024-07-27 21:08:26 INFO main - enableRemoteEscape=false
+2024-07-27 21:08:26 INFO main - skipPreOnline=false
+2024-07-27 21:08:26 INFO main - asyncSendEnable=true
+2024-07-27 21:08:26 INFO main - useServerSideResetOffset=false
+2024-07-27 21:08:26 INFO main - consumerOffsetUpdateVersionStep=500
+2024-07-27 21:08:26 INFO main - delayOffsetUpdateVersionStep=200
+2024-07-27 21:08:26 INFO main - lockInStrictMode=false
+2024-07-27 21:08:26 INFO main - compatibleWithOldNameSrv=true
+2024-07-27 21:08:26 INFO main - enableControllerMode=false
+2024-07-27 21:08:26 INFO main - controllerAddr=
+2024-07-27 21:08:26 INFO main - fetchControllerAddrByDnsLookup=false
+2024-07-27 21:08:26 INFO main - syncBrokerMetadataPeriod=5000
+2024-07-27 21:08:26 INFO main - checkSyncStateSetPeriod=5000
+2024-07-27 21:08:26 INFO main - syncControllerMetadataPeriod=10000
+2024-07-27 21:08:26 INFO main - controllerHeartBeatTimeoutMills=10000
+2024-07-27 21:08:26 INFO main - validateSystemTopicWhenUpdateTopic=true
+2024-07-27 21:08:26 INFO main - brokerElectionPriority=2147483647
+2024-07-27 21:08:26 INFO main - metricsExporterType=DISABLE
+2024-07-27 21:08:26 INFO main - metricsGrpcExporterTarget=
+2024-07-27 21:08:26 INFO main - metricsGrpcExporterHeader=
+2024-07-27 21:08:26 INFO main - metricGrpcExporterTimeOutInMills=3000
+2024-07-27 21:08:26 INFO main - metricGrpcExporterIntervalInMills=60000
+2024-07-27 21:08:26 INFO main - metricsPromExporterPort=5557
+2024-07-27 21:08:26 INFO main - metricsPromExporterHost=
+2024-07-27 21:08:26 INFO main - metricsLabel=
+2024-07-27 21:08:26 INFO main - metricsInDelta=false
+2024-07-27 21:08:26 INFO main - channelExpiredTimeout=120000
+2024-07-27 21:08:26 INFO main - subscriptionExpiredTimeout=600000
+2024-07-27 21:08:26 INFO main - estimateAccumulation=true
+2024-07-27 21:08:26 INFO main - bindAddress=0.0.0.0
+2024-07-27 21:08:26 INFO main - listenPort=10911
+2024-07-27 21:08:26 INFO main - serverWorkerThreads=8
+2024-07-27 21:08:26 INFO main - serverCallbackExecutorThreads=0
+2024-07-27 21:08:26 INFO main - serverSelectorThreads=3
+2024-07-27 21:08:26 INFO main - serverOnewaySemaphoreValue=256
+2024-07-27 21:08:26 INFO main - serverAsyncSemaphoreValue=64
+2024-07-27 21:08:26 INFO main - serverChannelMaxIdleTimeSeconds=120
+2024-07-27 21:08:26 INFO main - serverSocketSndBufSize=0
+2024-07-27 21:08:26 INFO main - serverSocketRcvBufSize=0
+2024-07-27 21:08:26 INFO main - writeBufferHighWaterMark=0
+2024-07-27 21:08:26 INFO main - writeBufferLowWaterMark=0
+2024-07-27 21:08:26 INFO main - serverSocketBacklog=1024
+2024-07-27 21:08:26 INFO main - serverPooledByteBufAllocatorEnable=true
+2024-07-27 21:08:26 INFO main - useEpollNativeSelector=false
+2024-07-27 21:08:26 INFO main - clientWorkerThreads=4
+2024-07-27 21:08:26 INFO main - clientCallbackExecutorThreads=8
+2024-07-27 21:08:26 INFO main - clientOnewaySemaphoreValue=65535
+2024-07-27 21:08:26 INFO main - clientAsyncSemaphoreValue=65535
+2024-07-27 21:08:26 INFO main - connectTimeoutMillis=3000
+2024-07-27 21:08:26 INFO main - channelNotActiveInterval=60000
+2024-07-27 21:08:26 INFO main - clientChannelMaxIdleTimeSeconds=120
+2024-07-27 21:08:26 INFO main - clientSocketSndBufSize=0
+2024-07-27 21:08:26 INFO main - clientSocketRcvBufSize=0
+2024-07-27 21:08:26 INFO main - clientPooledByteBufAllocatorEnable=false
+2024-07-27 21:08:26 INFO main - clientCloseSocketIfTimeout=true
+2024-07-27 21:08:26 INFO main - useTLS=false
+2024-07-27 21:08:26 INFO main - socksProxyConfig={}
+2024-07-27 21:08:26 INFO main - writeBufferHighWaterMark=0
+2024-07-27 21:08:26 INFO main - writeBufferLowWaterMark=0
+2024-07-27 21:08:26 INFO main - disableCallbackExecutor=false
+2024-07-27 21:08:26 INFO main - disableNettyWorkerGroup=false
+2024-07-27 21:08:26 INFO main - storePathRootDir=/home/app/data/rocketmq/store
+2024-07-27 21:08:26 INFO main - storePathCommitLog=
+2024-07-27 21:08:26 INFO main - storePathDLedgerCommitLog=
+2024-07-27 21:08:26 INFO main - storePathEpochFile=/home/app/store/epochFileCheckpoint
+2024-07-27 21:08:26 INFO main - readOnlyCommitLogStorePaths=
+2024-07-27 21:08:26 INFO main - mappedFileSizeCommitLog=1073741824
+2024-07-27 21:08:26 INFO main - compactionMappedFileSize=104857600
+2024-07-27 21:08:26 INFO main - compactionCqMappedFileSize=10485760
+2024-07-27 21:08:26 INFO main - compactionScheduleInternal=900000
+2024-07-27 21:08:26 INFO main - maxOffsetMapSize=104857600
+2024-07-27 21:08:26 INFO main - compactionThreadNum=0
+2024-07-27 21:08:26 INFO main - enableCompaction=true
+2024-07-27 21:08:26 INFO main - mappedFileSizeTimerLog=104857600
+2024-07-27 21:08:26 INFO main - timerPrecisionMs=1000
+2024-07-27 21:08:26 INFO main - timerRollWindowSlot=172800
+2024-07-27 21:08:26 INFO main - timerFlushIntervalMs=1000
+2024-07-27 21:08:26 INFO main - timerGetMessageThreadNum=3
+2024-07-27 21:08:26 INFO main - timerPutMessageThreadNum=3
+2024-07-27 21:08:26 INFO main - timerEnableDisruptor=false
+2024-07-27 21:08:26 INFO main - timerEnableCheckMetrics=true
+2024-07-27 21:08:26 INFO main - timerInterceptDelayLevel=false
+2024-07-27 21:08:26 INFO main - timerMaxDelaySec=259200
+2024-07-27 21:08:26 INFO main - timerWheelEnable=true
+2024-07-27 21:08:26 INFO main - disappearTimeAfterStart=-1
+2024-07-27 21:08:26 INFO main - timerStopEnqueue=false
+2024-07-27 21:08:26 INFO main - timerCheckMetricsWhen=05
+2024-07-27 21:08:26 INFO main - timerSkipUnknownError=false
+2024-07-27 21:08:26 INFO main - timerWarmEnable=false
+2024-07-27 21:08:26 INFO main - timerStopDequeue=false
+2024-07-27 21:08:26 INFO main - timerCongestNumEachSlot=2147483647
+2024-07-27 21:08:26 INFO main - timerMetricSmallThreshold=1000000
+2024-07-27 21:08:26 INFO main - timerProgressLogIntervalMs=10000
+2024-07-27 21:08:26 INFO main - mappedFileSizeConsumeQueue=6000000
+2024-07-27 21:08:26 INFO main - enableConsumeQueueExt=false
+2024-07-27 21:08:26 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2024-07-27 21:08:26 INFO main - mapperFileSizeBatchConsumeQueue=13800000
+2024-07-27 21:08:26 INFO main - bitMapLengthConsumeQueueExt=64
+2024-07-27 21:08:26 INFO main - flushIntervalCommitLog=500
+2024-07-27 21:08:26 INFO main - commitIntervalCommitLog=200
+2024-07-27 21:08:26 INFO main - maxRecoveryCommitlogFiles=30
+2024-07-27 21:08:26 INFO main - diskSpaceWarningLevelRatio=90
+2024-07-27 21:08:26 INFO main - diskSpaceCleanForciblyRatio=85
+2024-07-27 21:08:26 INFO main - useReentrantLockWhenPutMessage=true
+2024-07-27 21:08:26 INFO main - flushCommitLogTimed=true
+2024-07-27 21:08:26 INFO main - flushIntervalConsumeQueue=1000
+2024-07-27 21:08:26 INFO main - cleanResourceInterval=10000
+2024-07-27 21:08:26 INFO main - deleteCommitLogFilesInterval=100
+2024-07-27 21:08:26 INFO main - deleteConsumeQueueFilesInterval=100
+2024-07-27 21:08:26 INFO main - destroyMapedFileIntervalForcibly=120000
+2024-07-27 21:08:26 INFO main - redeleteHangedFileInterval=120000
+2024-07-27 21:08:26 INFO main - deleteWhen=04
+2024-07-27 21:08:26 INFO main - diskMaxUsedSpaceRatio=75
+2024-07-27 21:08:26 INFO main - fileReservedTime=48
+2024-07-27 21:08:26 INFO main - deleteFileBatchMax=10
+2024-07-27 21:08:26 INFO main - putMsgIndexHightWater=600000
+2024-07-27 21:08:26 INFO main - maxMessageSize=4194304
+2024-07-27 21:08:26 INFO main - checkCRCOnRecover=true
+2024-07-27 21:08:26 INFO main - flushCommitLogLeastPages=4
+2024-07-27 21:08:26 INFO main - commitCommitLogLeastPages=4
+2024-07-27 21:08:26 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2024-07-27 21:08:26 INFO main - flushConsumeQueueLeastPages=2
+2024-07-27 21:08:26 INFO main - flushCommitLogThoroughInterval=10000
+2024-07-27 21:08:26 INFO main - commitCommitLogThoroughInterval=200
+2024-07-27 21:08:26 INFO main - flushConsumeQueueThoroughInterval=60000
+2024-07-27 21:08:26 INFO main - maxTransferBytesOnMessageInMemory=262144
+2024-07-27 21:08:26 INFO main - maxTransferCountOnMessageInMemory=32
+2024-07-27 21:08:26 INFO main - maxTransferBytesOnMessageInDisk=65536
+2024-07-27 21:08:26 INFO main - maxTransferCountOnMessageInDisk=8
+2024-07-27 21:08:26 INFO main - accessMessageInMemoryMaxRatio=40
+2024-07-27 21:08:26 INFO main - messageIndexEnable=true
+2024-07-27 21:08:26 INFO main - maxHashSlotNum=5000000
+2024-07-27 21:08:26 INFO main - maxIndexNum=20000000
+2024-07-27 21:08:26 INFO main - maxMsgsNumBatch=64
+2024-07-27 21:08:26 INFO main - messageIndexSafe=false
+2024-07-27 21:08:26 INFO main - haListenPort=10912
+2024-07-27 21:08:26 INFO main - haSendHeartbeatInterval=5000
+2024-07-27 21:08:26 INFO main - haHousekeepingInterval=20000
+2024-07-27 21:08:26 INFO main - haTransferBatchSize=32768
+2024-07-27 21:08:26 INFO main - haMasterAddress=
+2024-07-27 21:08:26 INFO main - haMaxGapNotInSync=268435456
+2024-07-27 21:08:26 INFO main - brokerRole=ASYNC_MASTER
+2024-07-27 21:08:26 INFO main - flushDiskType=ASYNC_FLUSH
+2024-07-27 21:08:26 INFO main - syncFlushTimeout=5000
+2024-07-27 21:08:26 INFO main - putMessageTimeout=8000
+2024-07-27 21:08:26 INFO main - slaveTimeout=3000
+2024-07-27 21:08:26 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2024-07-27 21:08:26 INFO main - flushDelayOffsetInterval=10000
+2024-07-27 21:08:26 INFO main - cleanFileForciblyEnable=true
+2024-07-27 21:08:26 INFO main - warmMapedFileEnable=false
+2024-07-27 21:08:26 INFO main - offsetCheckInSlave=false
+2024-07-27 21:08:26 INFO main - debugLockEnable=false
+2024-07-27 21:08:26 INFO main - duplicationEnable=false
+2024-07-27 21:08:26 INFO main - diskFallRecorded=true
+2024-07-27 21:08:26 INFO main - osPageCacheBusyTimeOutMills=1000
+2024-07-27 21:08:26 INFO main - defaultQueryMaxNum=32
+2024-07-27 21:08:26 INFO main - transientStorePoolEnable=false
+2024-07-27 21:08:26 INFO main - transientStorePoolSize=5
+2024-07-27 21:08:26 INFO main - fastFailIfNoBufferInStorePool=false
+2024-07-27 21:08:26 INFO main - enableDLegerCommitLog=false
+2024-07-27 21:08:26 INFO main - dLegerGroup=
+2024-07-27 21:08:26 INFO main - dLegerPeers=
+2024-07-27 21:08:26 INFO main - dLegerSelfId=
+2024-07-27 21:08:26 INFO main - preferredLeaderId=
+2024-07-27 21:08:26 INFO main - isEnableBatchPush=false
+2024-07-27 21:08:26 INFO main - enableScheduleMessageStats=true
+2024-07-27 21:08:26 INFO main - enableLmq=false
+2024-07-27 21:08:26 INFO main - enableMultiDispatch=false
+2024-07-27 21:08:26 INFO main - maxLmqConsumeQueueNum=20000
+2024-07-27 21:08:26 INFO main - enableScheduleAsyncDeliver=false
+2024-07-27 21:08:26 INFO main - scheduleAsyncDeliverMaxPendingLimit=2000
+2024-07-27 21:08:26 INFO main - scheduleAsyncDeliverMaxResendNum2Blocked=3
+2024-07-27 21:08:26 INFO main - maxBatchDeleteFilesNum=50
+2024-07-27 21:08:26 INFO main - dispatchCqThreads=10
+2024-07-27 21:08:26 INFO main - dispatchCqCacheNum=4096
+2024-07-27 21:08:26 INFO main - enableAsyncReput=true
+2024-07-27 21:08:26 INFO main - recheckReputOffsetFromCq=false
+2024-07-27 21:08:26 INFO main - maxTopicLength=127
+2024-07-27 21:08:26 INFO main - autoMessageVersionOnTopicLen=true
+2024-07-27 21:08:26 INFO main - travelCqFileNumWhenGetMessage=1
+2024-07-27 21:08:26 INFO main - correctLogicMinOffsetSleepInterval=1
+2024-07-27 21:08:26 INFO main - correctLogicMinOffsetForceInterval=300000
+2024-07-27 21:08:26 INFO main - mappedFileSwapEnable=true
+2024-07-27 21:08:26 INFO main - commitLogForceSwapMapInterval=43200000
+2024-07-27 21:08:26 INFO main - commitLogSwapMapInterval=3600000
+2024-07-27 21:08:26 INFO main - commitLogSwapMapReserveFileNum=100
+2024-07-27 21:08:26 INFO main - logicQueueForceSwapMapInterval=43200000
+2024-07-27 21:08:26 INFO main - logicQueueSwapMapInterval=3600000
+2024-07-27 21:08:26 INFO main - cleanSwapedMapInterval=300000
+2024-07-27 21:08:26 INFO main - logicQueueSwapMapReserveFileNum=20
+2024-07-27 21:08:26 INFO main - searchBcqByCacheEnable=true
+2024-07-27 21:08:26 INFO main - dispatchFromSenderThread=false
+2024-07-27 21:08:26 INFO main - wakeCommitWhenPutMessage=true
+2024-07-27 21:08:26 INFO main - wakeFlushWhenPutMessage=false
+2024-07-27 21:08:26 INFO main - Replace, key: listenPort, value: 6888 -> 10911
+2024-07-27 21:08:27 INFO main - Looking for a resource file of name [META-INF/service/org.apache.rocketmq.store.ha.HAService] ...
+2024-07-27 21:08:27 WARN main - No resource file with name [META-INF/service/org.apache.rocketmq.store.ha.HAService] found.
+2024-07-27 21:08:30 INFO main - Set user specified name server address: localhost:9876
+2024-07-27 21:08:30 INFO main - Looking for a resource file of name [META-INF/service/org.apache.rocketmq.broker.transaction.TransactionalMessageService] ...
+2024-07-27 21:08:30 WARN main - No resource file with name [META-INF/service/org.apache.rocketmq.broker.transaction.TransactionalMessageService] found.
+2024-07-27 21:08:30 INFO main - Try to start service thread:TransactionalOpBatchService started:false lastThread:null
+2024-07-27 21:08:30 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2024-07-27 21:08:30 INFO main - Looking for a resource file of name [META-INF/service/org.apache.rocketmq.broker.transaction.AbstractTransactionalMessageCheckListener] ...
+2024-07-27 21:08:30 WARN main - No resource file with name [META-INF/service/org.apache.rocketmq.broker.transaction.AbstractTransactionalMessageCheckListener] found.
+2024-07-27 21:08:30 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2024-07-27 21:08:30 INFO main - The broker dose not enable acl
+2024-07-27 21:08:30 INFO main - Looking for a resource file of name [META-INF/service/org.apache.rocketmq.remoting.RPCHook] ...
+2024-07-27 21:08:30 WARN main - No resource file with name [META-INF/service/org.apache.rocketmq.remoting.RPCHook] found.
+2024-07-27 21:08:30 INFO main - Try to start service thread:AllocateMappedFileService started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:ReputMessageService started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:FlushConsumeQueueService started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:FlushRealTimeService started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:FlushDiskWatcher started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:CompactionService started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:StoreStatsService started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:DefaultAcceptSocketService started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:GroupTransferService started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:HAConnectionStateNotificationService started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:org.apache.rocketmq.store.util.PerfCounter$Ticks started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:TimerEnqueueGetService started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:TimerEnqueuePutService started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:TimerDequeueWarmService started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:TimerDequeueGetService started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:TimerDequeueGetMessageService started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:TimerDequeueGetMessageService started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:TimerDequeueGetMessageService started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:TimerDequeuePutMessageService started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:TimerDequeuePutMessageService started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:TimerDequeuePutMessageService started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:TimerFlushService started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:NettyEventExecutor started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:NettyEventExecutor started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:PopLongPollingService started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:PopBufferMergeService started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:QueueLockManager started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:PopReviveService_0 started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:PopReviveService_1 started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:PopReviveService_2 started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:PopReviveService_3 started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:PopReviveService_4 started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:PopReviveService_5 started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:PopReviveService_6 started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:PopReviveService_7 started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:TopicQueueMappingCleanService started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2024-07-27 21:08:30 INFO main - Try to start service thread:PullRequestHoldService started:false lastThread:null
+2024-07-27 21:08:30 INFO TopicQueueMappingCleanService - Start topic queue mapping clean service thread!
+2024-07-27 21:08:30 INFO FileWatchService - FileWatchService service started
+2024-07-27 21:08:30 INFO PullRequestHoldService - PullRequestHoldService service started
+2024-07-27 21:08:30 INFO main - Try to start service thread:BroadcastOffsetManager started:false lastThread:null
+2024-07-27 21:08:31 INFO main - ScheduleServiceStatus changed to true
+2024-07-27 21:08:31 INFO main - TransactionCheckService status changed to true
+2024-07-27 21:08:31 INFO main - Try to start service thread:TransactionalMessageCheckService started:false lastThread:null
+2024-07-27 21:08:31 INFO main - Set PopReviveService Status to true
+2024-07-27 21:08:31 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:08:31 INFO main - The broker[broker-a, 127.0.0.1:10911] boot success. serializeType=JSON and name server is localhost:9876
+2024-07-27 21:08:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:08:41 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:09:01 INFO HeartbeatThread_1 - new producer connected, group: CLIENT_INNER_PRODUCER channel: ClientChannelInfo [channel=[id: 0xc25ac076, L:/127.0.0.1:10911 - R:/127.0.0.1:45488], clientId=172.19.0.3@1722085740022, language=JAVA, version=393, lastUpdateTimestamp=1722085741292]
+2024-07-27 21:09:11 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:09:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:09:41 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:10:11 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:10:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:10:41 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:11:11 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:11:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:11:41 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:12:11 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:12:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:12:41 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:13:11 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:13:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:13:41 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:14:11 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:14:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:14:41 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:15:11 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:15:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:15:41 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:16:11 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:16:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:16:41 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:17:11 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:17:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:17:41 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:18:11 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:18:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:18:41 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:19:11 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:19:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:19:41 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:20:11 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:20:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:20:41 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:21:11 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:21:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:21:41 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:22:11 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:22:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:22:41 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:23:11 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:23:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:23:41 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:24:11 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:24:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:24:41 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:25:11 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:25:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:25:41 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:26:11 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:26:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:26:41 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:27:11 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:27:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:27:41 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:28:11 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:28:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:28:41 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:29:11 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:29:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:29:41 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:30:11 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:30:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:30:41 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:31:11 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:31:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:31:41 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:32:11 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:32:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:32:41 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:33:11 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:33:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:33:41 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:34:11 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:34:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:34:41 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:35:11 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:35:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:35:41 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:36:11 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:36:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:36:41 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:37:11 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:37:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:37:41 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:38:11 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:38:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:38:41 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:39:11 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:39:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:39:41 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:40:11 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:40:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:40:41 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:41:11 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:41:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:41:41 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:42:11 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:42:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:42:41 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:43:11 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:43:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:43:41 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:44:11 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:44:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:44:41 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:45:11 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:45:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:45:41 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:46:11 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:46:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:46:41 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:47:11 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:47:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:47:41 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:48:11 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:48:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:48:41 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:49:11 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:49:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:49:41 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:50:11 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:50:40 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-07-27 21:50:41 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-07-27 21:51:11 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876

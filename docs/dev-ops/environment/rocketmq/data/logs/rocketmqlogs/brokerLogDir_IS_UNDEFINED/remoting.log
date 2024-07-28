@@ -1,0 +1,350 @@
+2024-07-27 21:08:18 INFO main - Server is running in TLS permissive mode
+2024-07-27 21:08:18 INFO main - Tls config file doesn't exist, skip it
+2024-07-27 21:08:18 INFO main - Log the final used tls related configuration
+2024-07-27 21:08:18 INFO main - tls.test.mode.enable = true
+2024-07-27 21:08:18 INFO main - tls.server.need.client.auth = none
+2024-07-27 21:08:18 INFO main - tls.server.keyPath = null
+2024-07-27 21:08:18 INFO main - tls.server.keyPassword = null
+2024-07-27 21:08:18 INFO main - tls.server.certPath = null
+2024-07-27 21:08:18 INFO main - tls.server.authClient = false
+2024-07-27 21:08:18 INFO main - tls.server.trustCertPath = null
+2024-07-27 21:08:18 INFO main - tls.client.keyPath = null
+2024-07-27 21:08:18 INFO main - tls.client.keyPassword = null
+2024-07-27 21:08:18 INFO main - tls.client.certPath = null
+2024-07-27 21:08:18 INFO main - tls.client.authServer = false
+2024-07-27 21:08:18 INFO main - tls.client.trustCertPath = null
+2024-07-27 21:08:18 INFO main - Using OpenSSL provider
+2024-07-27 21:08:18 INFO main - SSLContext created for server
+2024-07-27 21:08:18 INFO main - RemotingServer started, listening 0.0.0.0:9876
+2024-07-27 21:08:18 INFO NettyEventExecutor - NettyEventExecutor service started
+2024-07-27 21:08:18 INFO main - name server address updated. NEW : [172.19.0.3:9876] , OLD: null
+2024-07-27 21:08:18 INFO NettyClientScan_thread_1 - createChannel: begin to connect remote host[172.19.0.3:9876] asynchronously
+2024-07-27 21:08:18 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.3:9876
+2024-07-27 21:08:18 INFO NettyClientScan_thread_1 - createChannel: connect remote host[172.19.0.3:9876] success, AbstractBootstrap$PendingRegistrationPromise@32524f7f(success)
+2024-07-27 21:08:18 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.3:56400
+2024-07-27 21:08:18 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.3:56400]
+2024-07-27 21:08:29 INFO main - Server is running in TLS permissive mode
+2024-07-27 21:08:29 INFO main - Tls config file doesn't exist, skip it
+2024-07-27 21:08:29 INFO main - Log the final used tls related configuration
+2024-07-27 21:08:29 INFO main - tls.test.mode.enable = true
+2024-07-27 21:08:29 INFO main - tls.server.need.client.auth = none
+2024-07-27 21:08:29 INFO main - tls.server.keyPath = null
+2024-07-27 21:08:29 INFO main - tls.server.keyPassword = null
+2024-07-27 21:08:29 INFO main - tls.server.certPath = null
+2024-07-27 21:08:29 INFO main - tls.server.authClient = false
+2024-07-27 21:08:29 INFO main - tls.server.trustCertPath = null
+2024-07-27 21:08:29 INFO main - tls.client.keyPath = null
+2024-07-27 21:08:29 INFO main - tls.client.keyPassword = null
+2024-07-27 21:08:29 INFO main - tls.client.certPath = null
+2024-07-27 21:08:29 INFO main - tls.client.authServer = false
+2024-07-27 21:08:29 INFO main - tls.client.trustCertPath = null
+2024-07-27 21:08:29 INFO main - Using OpenSSL provider
+2024-07-27 21:08:30 INFO main - SSLContext created for server
+2024-07-27 21:08:30 INFO main - Server is running in TLS permissive mode
+2024-07-27 21:08:30 INFO main - Tls config file doesn't exist, skip it
+2024-07-27 21:08:30 INFO main - Log the final used tls related configuration
+2024-07-27 21:08:30 INFO main - tls.test.mode.enable = true
+2024-07-27 21:08:30 INFO main - tls.server.need.client.auth = none
+2024-07-27 21:08:30 INFO main - tls.server.keyPath = null
+2024-07-27 21:08:30 INFO main - tls.server.keyPassword = null
+2024-07-27 21:08:30 INFO main - tls.server.certPath = null
+2024-07-27 21:08:30 INFO main - tls.server.authClient = false
+2024-07-27 21:08:30 INFO main - tls.server.trustCertPath = null
+2024-07-27 21:08:30 INFO main - tls.client.keyPath = null
+2024-07-27 21:08:30 INFO main - tls.client.keyPassword = null
+2024-07-27 21:08:30 INFO main - tls.client.certPath = null
+2024-07-27 21:08:30 INFO main - tls.client.authServer = false
+2024-07-27 21:08:30 INFO main - tls.client.trustCertPath = null
+2024-07-27 21:08:30 INFO main - Using OpenSSL provider
+2024-07-27 21:08:30 INFO main - SSLContext created for server
+2024-07-27 21:08:30 INFO main - name server address updated. NEW : [localhost:9876] , OLD: null
+2024-07-27 21:08:30 INFO NettyClientScan_thread_1 - createChannel: begin to connect remote host[localhost:9876] asynchronously
+2024-07-27 21:08:30 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 127.0.0.1:9876
+2024-07-27 21:08:30 INFO NettyClientScan_thread_1 - createChannel: connect remote host[localhost:9876] success, AbstractBootstrap$PendingRegistrationPromise@71c382eb(success)
+2024-07-27 21:08:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 127.0.0.1:46470
+2024-07-27 21:08:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[127.0.0.1:46470]
+2024-07-27 21:08:30 INFO main - RemotingServer started, listening 0.0.0.0:10911
+2024-07-27 21:08:30 INFO NettyEventExecutor - NettyEventExecutor service started
+2024-07-27 21:08:30 INFO main - RemotingServer started, listening 0.0.0.0:10909
+2024-07-27 21:08:30 INFO NettyEventExecutor - NettyEventExecutor service started
+2024-07-27 21:08:40 INFO BrokerControllerScheduledThread1 - new name server is chosen. OLD: null , NEW: localhost:9876. namesrvIndex = 834
+2024-07-27 21:09:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.3:56404
+2024-07-27 21:09:00 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.3:56404]
+2024-07-27 21:09:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 127.0.0.1:49286
+2024-07-27 21:09:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[127.0.0.1:49286]
+2024-07-27 21:09:01 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 127.0.0.1:45488
+2024-07-27 21:09:01 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[127.0.0.1:45488]
+2024-07-27 21:10:18 WARN NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: IDLE exception [172.19.0.3:9876]
+2024-07-27 21:10:18 INFO NettyClientWorkerThread_1 - closeChannel: the channel[172.19.0.3:9876] was removed from channel table
+2024-07-27 21:10:18 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CLOSE 172.19.0.3:9876
+2024-07-27 21:10:18 INFO NettyClientWorkerThread_1 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2024-07-27 21:10:18 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[172.19.0.3:9876] result: true
+2024-07-27 21:10:18 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.3:56400]
+2024-07-27 21:10:18 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.3:56400]
+2024-07-27 21:10:21 INFO NettyClientScan_thread_2 - createChannel: begin to connect remote host[172.19.0.3:9876] asynchronously
+2024-07-27 21:10:21 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.3:9876
+2024-07-27 21:10:21 INFO NettyClientScan_thread_2 - createChannel: connect remote host[172.19.0.3:9876] success, AbstractBootstrap$PendingRegistrationPromise@24b485a9(success)
+2024-07-27 21:10:21 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.3:56462
+2024-07-27 21:10:21 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.3:56462]
+2024-07-27 21:12:21 WARN NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: IDLE exception [172.19.0.3:9876]
+2024-07-27 21:12:21 INFO NettyClientWorkerThread_2 - closeChannel: the channel[172.19.0.3:9876] was removed from channel table
+2024-07-27 21:12:21 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CLOSE 172.19.0.3:9876
+2024-07-27 21:12:21 INFO NettyClientWorkerThread_2 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2024-07-27 21:12:21 WARN NettyServerCodecThread_4 - NETTY SERVER PIPELINE: IDLE exception [172.19.0.3:56462]
+2024-07-27 21:12:21 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[172.19.0.3:9876] result: true
+2024-07-27 21:12:21 INFO NettyServerNIOSelector_3_1 - closeChannel: close the connection to remote address[172.19.0.3:56462] result: true
+2024-07-27 21:12:21 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.3:56462]
+2024-07-27 21:12:21 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.3:56462]
+2024-07-27 21:12:24 INFO NettyClientScan_thread_3 - createChannel: begin to connect remote host[172.19.0.3:9876] asynchronously
+2024-07-27 21:12:24 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.3:9876
+2024-07-27 21:12:24 INFO NettyClientScan_thread_3 - createChannel: connect remote host[172.19.0.3:9876] success, AbstractBootstrap$PendingRegistrationPromise@23c3efbf(success)
+2024-07-27 21:12:24 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.3:56478
+2024-07-27 21:12:24 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.3:56478]
+2024-07-27 21:14:24 WARN NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: IDLE exception [172.19.0.3:9876]
+2024-07-27 21:14:24 INFO NettyClientWorkerThread_3 - closeChannel: the channel[172.19.0.3:9876] was removed from channel table
+2024-07-27 21:14:24 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CLOSE 172.19.0.3:9876
+2024-07-27 21:14:24 INFO NettyClientWorkerThread_3 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2024-07-27 21:14:24 WARN NettyServerCodecThread_5 - NETTY SERVER PIPELINE: IDLE exception [172.19.0.3:56478]
+2024-07-27 21:14:24 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[172.19.0.3:9876] result: true
+2024-07-27 21:14:24 INFO NettyServerNIOSelector_3_2 - closeChannel: close the connection to remote address[172.19.0.3:56478] result: true
+2024-07-27 21:14:24 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.3:56478]
+2024-07-27 21:14:24 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.3:56478]
+2024-07-27 21:14:27 INFO NettyClientScan_thread_4 - createChannel: begin to connect remote host[172.19.0.3:9876] asynchronously
+2024-07-27 21:14:27 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.3:9876
+2024-07-27 21:14:27 INFO NettyClientScan_thread_4 - createChannel: connect remote host[172.19.0.3:9876] success, AbstractBootstrap$PendingRegistrationPromise@480ca19b(success)
+2024-07-27 21:14:27 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.3:56506
+2024-07-27 21:14:27 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.3:56506]
+2024-07-27 21:16:27 WARN NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: IDLE exception [172.19.0.3:9876]
+2024-07-27 21:16:27 INFO NettyClientWorkerThread_4 - closeChannel: the channel[172.19.0.3:9876] was removed from channel table
+2024-07-27 21:16:27 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CLOSE 172.19.0.3:9876
+2024-07-27 21:16:27 INFO NettyClientWorkerThread_4 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2024-07-27 21:16:27 WARN NettyServerCodecThread_6 - NETTY SERVER PIPELINE: IDLE exception [172.19.0.3:56506]
+2024-07-27 21:16:27 INFO NettyServerNIOSelector_3_3 - closeChannel: close the connection to remote address[172.19.0.3:56506] result: true
+2024-07-27 21:16:27 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[172.19.0.3:9876] result: true
+2024-07-27 21:16:27 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.3:56506]
+2024-07-27 21:16:27 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.3:56506]
+2024-07-27 21:16:30 INFO NettyClientScan_thread_1 - createChannel: begin to connect remote host[172.19.0.3:9876] asynchronously
+2024-07-27 21:16:30 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.3:9876
+2024-07-27 21:16:30 INFO NettyClientScan_thread_1 - createChannel: connect remote host[172.19.0.3:9876] success, AbstractBootstrap$PendingRegistrationPromise@20c61a88(success)
+2024-07-27 21:16:30 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.3:56524
+2024-07-27 21:16:30 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.3:56524]
+2024-07-27 21:18:30 WARN NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: IDLE exception [172.19.0.3:9876]
+2024-07-27 21:18:30 INFO NettyClientWorkerThread_1 - closeChannel: the channel[172.19.0.3:9876] was removed from channel table
+2024-07-27 21:18:30 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CLOSE 172.19.0.3:9876
+2024-07-27 21:18:30 INFO NettyClientWorkerThread_1 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2024-07-27 21:18:30 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[172.19.0.3:9876] result: true
+2024-07-27 21:18:30 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.3:56524]
+2024-07-27 21:18:30 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.3:56524]
+2024-07-27 21:18:33 INFO NettyClientScan_thread_2 - createChannel: begin to connect remote host[172.19.0.3:9876] asynchronously
+2024-07-27 21:18:33 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.3:9876
+2024-07-27 21:18:33 INFO NettyClientScan_thread_2 - createChannel: connect remote host[172.19.0.3:9876] success, AbstractBootstrap$PendingRegistrationPromise@2a737f4f(success)
+2024-07-27 21:18:33 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.3:56542
+2024-07-27 21:18:33 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.3:56542]
+2024-07-27 21:20:33 WARN NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: IDLE exception [172.19.0.3:9876]
+2024-07-27 21:20:33 INFO NettyClientWorkerThread_2 - closeChannel: the channel[172.19.0.3:9876] was removed from channel table
+2024-07-27 21:20:33 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CLOSE 172.19.0.3:9876
+2024-07-27 21:20:33 INFO NettyClientWorkerThread_2 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2024-07-27 21:20:33 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[172.19.0.3:9876] result: true
+2024-07-27 21:20:33 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.3:56542]
+2024-07-27 21:20:33 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.3:56542]
+2024-07-27 21:20:36 INFO NettyClientScan_thread_3 - createChannel: begin to connect remote host[172.19.0.3:9876] asynchronously
+2024-07-27 21:20:36 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.3:9876
+2024-07-27 21:20:36 INFO NettyClientScan_thread_3 - createChannel: connect remote host[172.19.0.3:9876] success, AbstractBootstrap$PendingRegistrationPromise@2d0415b7(success)
+2024-07-27 21:20:36 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.3:56548
+2024-07-27 21:20:36 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.3:56548]
+2024-07-27 21:22:36 WARN NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: IDLE exception [172.19.0.3:9876]
+2024-07-27 21:22:36 INFO NettyClientWorkerThread_3 - closeChannel: the channel[172.19.0.3:9876] was removed from channel table
+2024-07-27 21:22:36 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CLOSE 172.19.0.3:9876
+2024-07-27 21:22:36 INFO NettyClientWorkerThread_3 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2024-07-27 21:22:36 WARN NettyServerCodecThread_1 - NETTY SERVER PIPELINE: IDLE exception [172.19.0.3:56548]
+2024-07-27 21:22:36 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[172.19.0.3:9876] result: true
+2024-07-27 21:22:36 INFO NettyServerNIOSelector_3_3 - closeChannel: close the connection to remote address[172.19.0.3:56548] result: true
+2024-07-27 21:22:36 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.3:56548]
+2024-07-27 21:22:36 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.3:56548]
+2024-07-27 21:22:39 INFO NettyClientScan_thread_4 - createChannel: begin to connect remote host[172.19.0.3:9876] asynchronously
+2024-07-27 21:22:39 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.3:9876
+2024-07-27 21:22:39 INFO NettyClientScan_thread_4 - createChannel: connect remote host[172.19.0.3:9876] success, AbstractBootstrap$PendingRegistrationPromise@46cb46ea(success)
+2024-07-27 21:22:39 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.3:56554
+2024-07-27 21:22:39 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.3:56554]
+2024-07-27 21:24:39 WARN NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: IDLE exception [172.19.0.3:9876]
+2024-07-27 21:24:39 INFO NettyClientWorkerThread_4 - closeChannel: the channel[172.19.0.3:9876] was removed from channel table
+2024-07-27 21:24:39 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CLOSE 172.19.0.3:9876
+2024-07-27 21:24:39 INFO NettyClientWorkerThread_4 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2024-07-27 21:24:39 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[172.19.0.3:9876] result: true
+2024-07-27 21:24:39 WARN NettyServerCodecThread_2 - NETTY SERVER PIPELINE: IDLE exception [172.19.0.3:56554]
+2024-07-27 21:24:39 INFO NettyServerNIOSelector_3_1 - closeChannel: close the connection to remote address[172.19.0.3:56554] result: true
+2024-07-27 21:24:39 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.3:56554]
+2024-07-27 21:24:39 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.3:56554]
+2024-07-27 21:24:42 INFO NettyClientScan_thread_1 - createChannel: begin to connect remote host[172.19.0.3:9876] asynchronously
+2024-07-27 21:24:42 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.3:9876
+2024-07-27 21:24:42 INFO NettyClientScan_thread_1 - createChannel: connect remote host[172.19.0.3:9876] success, AbstractBootstrap$PendingRegistrationPromise@4aba6a00(success)
+2024-07-27 21:24:42 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.3:56580
+2024-07-27 21:24:42 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.3:56580]
+2024-07-27 21:26:42 WARN NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: IDLE exception [172.19.0.3:9876]
+2024-07-27 21:26:42 INFO NettyClientWorkerThread_1 - closeChannel: the channel[172.19.0.3:9876] was removed from channel table
+2024-07-27 21:26:42 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CLOSE 172.19.0.3:9876
+2024-07-27 21:26:42 INFO NettyClientWorkerThread_1 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2024-07-27 21:26:42 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[172.19.0.3:9876] result: true
+2024-07-27 21:26:42 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.3:56580]
+2024-07-27 21:26:42 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.3:56580]
+2024-07-27 21:26:45 INFO NettyClientScan_thread_2 - createChannel: begin to connect remote host[172.19.0.3:9876] asynchronously
+2024-07-27 21:26:45 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.3:9876
+2024-07-27 21:26:45 INFO NettyClientScan_thread_2 - createChannel: connect remote host[172.19.0.3:9876] success, AbstractBootstrap$PendingRegistrationPromise@2e4ceed9(success)
+2024-07-27 21:26:45 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.3:56586
+2024-07-27 21:26:45 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.3:56586]
+2024-07-27 21:28:45 WARN NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: IDLE exception [172.19.0.3:9876]
+2024-07-27 21:28:45 INFO NettyClientWorkerThread_2 - closeChannel: the channel[172.19.0.3:9876] was removed from channel table
+2024-07-27 21:28:45 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CLOSE 172.19.0.3:9876
+2024-07-27 21:28:45 INFO NettyClientWorkerThread_2 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2024-07-27 21:28:45 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.3:56586]
+2024-07-27 21:28:45 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.3:56586]
+2024-07-27 21:28:45 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[172.19.0.3:9876] result: true
+2024-07-27 21:28:48 INFO NettyClientScan_thread_3 - createChannel: begin to connect remote host[172.19.0.3:9876] asynchronously
+2024-07-27 21:28:48 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.3:9876
+2024-07-27 21:28:48 INFO NettyClientScan_thread_3 - createChannel: connect remote host[172.19.0.3:9876] success, AbstractBootstrap$PendingRegistrationPromise@293b84cf(success)
+2024-07-27 21:28:48 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.3:56604
+2024-07-27 21:28:48 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.3:56604]
+2024-07-27 21:30:48 WARN NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: IDLE exception [172.19.0.3:9876]
+2024-07-27 21:30:48 WARN NettyServerCodecThread_5 - NETTY SERVER PIPELINE: IDLE exception [172.19.0.3:56604]
+2024-07-27 21:30:48 INFO NettyServerNIOSelector_3_1 - closeChannel: close the connection to remote address[172.19.0.3:56604] result: true
+2024-07-27 21:30:48 INFO NettyClientWorkerThread_3 - closeChannel: the channel[172.19.0.3:9876] was removed from channel table
+2024-07-27 21:30:48 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CLOSE 172.19.0.3:9876
+2024-07-27 21:30:48 INFO NettyClientWorkerThread_3 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2024-07-27 21:30:48 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.3:56604]
+2024-07-27 21:30:48 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.3:56604]
+2024-07-27 21:30:48 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[172.19.0.3:9876] result: true
+2024-07-27 21:30:51 INFO NettyClientScan_thread_4 - createChannel: begin to connect remote host[172.19.0.3:9876] asynchronously
+2024-07-27 21:30:51 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.3:9876
+2024-07-27 21:30:51 INFO NettyClientScan_thread_4 - createChannel: connect remote host[172.19.0.3:9876] success, AbstractBootstrap$PendingRegistrationPromise@42f4caeb(success)
+2024-07-27 21:30:51 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.3:56616
+2024-07-27 21:30:51 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.3:56616]
+2024-07-27 21:32:51 WARN NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: IDLE exception [172.19.0.3:9876]
+2024-07-27 21:32:51 INFO NettyClientWorkerThread_4 - closeChannel: the channel[172.19.0.3:9876] was removed from channel table
+2024-07-27 21:32:51 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CLOSE 172.19.0.3:9876
+2024-07-27 21:32:51 INFO NettyClientWorkerThread_4 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2024-07-27 21:32:51 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[172.19.0.3:9876] result: true
+2024-07-27 21:32:51 WARN NettyServerCodecThread_6 - NETTY SERVER PIPELINE: IDLE exception [172.19.0.3:56616]
+2024-07-27 21:32:51 INFO NettyServerNIOSelector_3_2 - closeChannel: close the connection to remote address[172.19.0.3:56616] result: true
+2024-07-27 21:32:51 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.3:56616]
+2024-07-27 21:32:51 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.3:56616]
+2024-07-27 21:32:54 INFO NettyClientScan_thread_1 - createChannel: begin to connect remote host[172.19.0.3:9876] asynchronously
+2024-07-27 21:32:54 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.3:9876
+2024-07-27 21:32:54 INFO NettyClientScan_thread_1 - createChannel: connect remote host[172.19.0.3:9876] success, AbstractBootstrap$PendingRegistrationPromise@77a88874(success)
+2024-07-27 21:32:55 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.3:56618
+2024-07-27 21:32:55 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.3:56618]
+2024-07-27 21:34:54 WARN NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: IDLE exception [172.19.0.3:9876]
+2024-07-27 21:34:54 INFO NettyClientWorkerThread_1 - closeChannel: the channel[172.19.0.3:9876] was removed from channel table
+2024-07-27 21:34:54 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CLOSE 172.19.0.3:9876
+2024-07-27 21:34:54 INFO NettyClientWorkerThread_1 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2024-07-27 21:34:55 WARN NettyServerCodecThread_7 - NETTY SERVER PIPELINE: IDLE exception [172.19.0.3:56618]
+2024-07-27 21:34:55 INFO NettyServerNIOSelector_3_3 - closeChannel: close the connection to remote address[172.19.0.3:56618] result: true
+2024-07-27 21:34:55 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.3:56618]
+2024-07-27 21:34:55 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.3:56618]
+2024-07-27 21:34:55 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[172.19.0.3:9876] result: true
+2024-07-27 21:34:57 INFO NettyClientScan_thread_2 - createChannel: begin to connect remote host[172.19.0.3:9876] asynchronously
+2024-07-27 21:34:57 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.3:9876
+2024-07-27 21:34:57 INFO NettyClientScan_thread_2 - createChannel: connect remote host[172.19.0.3:9876] success, AbstractBootstrap$PendingRegistrationPromise@6b4e7574(success)
+2024-07-27 21:34:57 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.3:56620
+2024-07-27 21:34:57 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.3:56620]
+2024-07-27 21:36:57 WARN NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: IDLE exception [172.19.0.3:9876]
+2024-07-27 21:36:57 INFO NettyClientWorkerThread_2 - closeChannel: the channel[172.19.0.3:9876] was removed from channel table
+2024-07-27 21:36:57 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CLOSE 172.19.0.3:9876
+2024-07-27 21:36:57 INFO NettyClientWorkerThread_2 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2024-07-27 21:36:57 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[172.19.0.3:9876] result: true
+2024-07-27 21:36:57 WARN NettyServerCodecThread_8 - NETTY SERVER PIPELINE: IDLE exception [172.19.0.3:56620]
+2024-07-27 21:36:57 INFO NettyServerNIOSelector_3_1 - closeChannel: close the connection to remote address[172.19.0.3:56620] result: true
+2024-07-27 21:36:57 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.3:56620]
+2024-07-27 21:36:57 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.3:56620]
+2024-07-27 21:37:00 INFO NettyClientScan_thread_3 - createChannel: begin to connect remote host[172.19.0.3:9876] asynchronously
+2024-07-27 21:37:00 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.3:9876
+2024-07-27 21:37:00 INFO NettyClientScan_thread_3 - createChannel: connect remote host[172.19.0.3:9876] success, AbstractBootstrap$PendingRegistrationPromise@6c391f8c(success)
+2024-07-27 21:37:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.3:56624
+2024-07-27 21:37:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.3:56624]
+2024-07-27 21:39:00 WARN NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: IDLE exception [172.19.0.3:9876]
+2024-07-27 21:39:00 INFO NettyClientWorkerThread_3 - closeChannel: the channel[172.19.0.3:9876] was removed from channel table
+2024-07-27 21:39:00 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CLOSE 172.19.0.3:9876
+2024-07-27 21:39:00 INFO NettyClientWorkerThread_3 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2024-07-27 21:39:00 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[172.19.0.3:9876] result: true
+2024-07-27 21:39:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.3:56624]
+2024-07-27 21:39:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.3:56624]
+2024-07-27 21:39:03 INFO NettyClientScan_thread_4 - createChannel: begin to connect remote host[172.19.0.3:9876] asynchronously
+2024-07-27 21:39:03 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.3:9876
+2024-07-27 21:39:03 INFO NettyClientScan_thread_4 - createChannel: connect remote host[172.19.0.3:9876] success, AbstractBootstrap$PendingRegistrationPromise@2a5b35cd(success)
+2024-07-27 21:39:03 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.3:56650
+2024-07-27 21:39:03 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.3:56650]
+2024-07-27 21:41:03 WARN NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: IDLE exception [172.19.0.3:9876]
+2024-07-27 21:41:03 INFO NettyClientWorkerThread_4 - closeChannel: the channel[172.19.0.3:9876] was removed from channel table
+2024-07-27 21:41:03 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CLOSE 172.19.0.3:9876
+2024-07-27 21:41:03 INFO NettyClientWorkerThread_4 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2024-07-27 21:41:03 WARN NettyServerCodecThread_2 - NETTY SERVER PIPELINE: IDLE exception [172.19.0.3:56650]
+2024-07-27 21:41:03 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[172.19.0.3:9876] result: true
+2024-07-27 21:41:03 INFO NettyServerNIOSelector_3_3 - closeChannel: close the connection to remote address[172.19.0.3:56650] result: true
+2024-07-27 21:41:03 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.3:56650]
+2024-07-27 21:41:03 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.3:56650]
+2024-07-27 21:41:06 INFO NettyClientScan_thread_1 - createChannel: begin to connect remote host[172.19.0.3:9876] asynchronously
+2024-07-27 21:41:06 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.3:9876
+2024-07-27 21:41:06 INFO NettyClientScan_thread_1 - createChannel: connect remote host[172.19.0.3:9876] success, AbstractBootstrap$PendingRegistrationPromise@57211849(success)
+2024-07-27 21:41:06 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.3:56676
+2024-07-27 21:41:06 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.3:56676]
+2024-07-27 21:43:06 WARN NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: IDLE exception [172.19.0.3:9876]
+2024-07-27 21:43:06 INFO NettyClientWorkerThread_1 - closeChannel: the channel[172.19.0.3:9876] was removed from channel table
+2024-07-27 21:43:06 WARN NettyServerCodecThread_3 - NETTY SERVER PIPELINE: IDLE exception [172.19.0.3:56676]
+2024-07-27 21:43:06 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CLOSE 172.19.0.3:9876
+2024-07-27 21:43:06 INFO NettyClientWorkerThread_1 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2024-07-27 21:43:06 INFO NettyServerNIOSelector_3_1 - closeChannel: close the connection to remote address[172.19.0.3:56676] result: true
+2024-07-27 21:43:06 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.3:56676]
+2024-07-27 21:43:06 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.3:56676]
+2024-07-27 21:43:06 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[172.19.0.3:9876] result: true
+2024-07-27 21:43:09 INFO NettyClientScan_thread_2 - createChannel: begin to connect remote host[172.19.0.3:9876] asynchronously
+2024-07-27 21:43:09 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.3:9876
+2024-07-27 21:43:09 INFO NettyClientScan_thread_2 - createChannel: connect remote host[172.19.0.3:9876] success, AbstractBootstrap$PendingRegistrationPromise@6b573c79(success)
+2024-07-27 21:43:09 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.3:56680
+2024-07-27 21:43:09 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.3:56680]
+2024-07-27 21:45:09 WARN NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: IDLE exception [172.19.0.3:9876]
+2024-07-27 21:45:09 INFO NettyClientWorkerThread_2 - closeChannel: the channel[172.19.0.3:9876] was removed from channel table
+2024-07-27 21:45:09 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CLOSE 172.19.0.3:9876
+2024-07-27 21:45:09 INFO NettyClientWorkerThread_2 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2024-07-27 21:45:09 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[172.19.0.3:9876] result: true
+2024-07-27 21:45:09 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.3:56680]
+2024-07-27 21:45:09 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.3:56680]
+2024-07-27 21:45:12 INFO NettyClientScan_thread_3 - createChannel: begin to connect remote host[172.19.0.3:9876] asynchronously
+2024-07-27 21:45:12 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.3:9876
+2024-07-27 21:45:12 INFO NettyClientScan_thread_3 - createChannel: connect remote host[172.19.0.3:9876] success, AbstractBootstrap$PendingRegistrationPromise@50bbaba3(success)
+2024-07-27 21:45:12 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.3:56682
+2024-07-27 21:45:12 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.3:56682]
+2024-07-27 21:47:12 WARN NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: IDLE exception [172.19.0.3:9876]
+2024-07-27 21:47:12 INFO NettyClientWorkerThread_3 - closeChannel: the channel[172.19.0.3:9876] was removed from channel table
+2024-07-27 21:47:12 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CLOSE 172.19.0.3:9876
+2024-07-27 21:47:12 INFO NettyClientWorkerThread_3 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2024-07-27 21:47:12 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[172.19.0.3:9876] result: true
+2024-07-27 21:47:12 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.3:56682]
+2024-07-27 21:47:12 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.3:56682]
+2024-07-27 21:47:15 INFO NettyClientScan_thread_4 - createChannel: begin to connect remote host[172.19.0.3:9876] asynchronously
+2024-07-27 21:47:15 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.3:9876
+2024-07-27 21:47:15 INFO NettyClientScan_thread_4 - createChannel: connect remote host[172.19.0.3:9876] success, AbstractBootstrap$PendingRegistrationPromise@36bbca7a(success)
+2024-07-27 21:47:15 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.3:56684
+2024-07-27 21:47:15 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.3:56684]
+2024-07-27 21:49:15 WARN NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: IDLE exception [172.19.0.3:9876]
+2024-07-27 21:49:15 INFO NettyClientWorkerThread_4 - closeChannel: the channel[172.19.0.3:9876] was removed from channel table
+2024-07-27 21:49:15 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CLOSE 172.19.0.3:9876
+2024-07-27 21:49:15 INFO NettyClientWorkerThread_4 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2024-07-27 21:49:15 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[172.19.0.3:9876] result: true
+2024-07-27 21:49:15 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.3:56684]
+2024-07-27 21:49:15 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.3:56684]
+2024-07-27 21:49:18 INFO NettyClientScan_thread_1 - createChannel: begin to connect remote host[172.19.0.3:9876] asynchronously
+2024-07-27 21:49:18 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.3:9876
+2024-07-27 21:49:18 INFO NettyClientScan_thread_1 - createChannel: connect remote host[172.19.0.3:9876] success, AbstractBootstrap$PendingRegistrationPromise@47a34a7f(success)
+2024-07-27 21:49:18 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.3:56686
+2024-07-27 21:49:18 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.3:56686]
+2024-07-27 21:51:18 WARN NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: IDLE exception [172.19.0.3:9876]
+2024-07-27 21:51:18 INFO NettyClientWorkerThread_1 - closeChannel: the channel[172.19.0.3:9876] was removed from channel table
+2024-07-27 21:51:18 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CLOSE 172.19.0.3:9876
+2024-07-27 21:51:18 INFO NettyClientWorkerThread_1 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2024-07-27 21:51:18 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[172.19.0.3:9876] result: true
+2024-07-27 21:51:18 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.3:56686]
+2024-07-27 21:51:18 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.3:56686]
+2024-07-27 21:51:21 INFO NettyClientScan_thread_2 - createChannel: begin to connect remote host[172.19.0.3:9876] asynchronously
+2024-07-27 21:51:21 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.3:9876
+2024-07-27 21:51:21 INFO NettyClientScan_thread_2 - createChannel: connect remote host[172.19.0.3:9876] success, AbstractBootstrap$PendingRegistrationPromise@5aefbf5b(success)
+2024-07-27 21:51:21 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.3:56700
+2024-07-27 21:51:21 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.3:56700]

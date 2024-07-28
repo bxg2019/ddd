@@ -1,0 +1,42 @@
+2024-07-27 21:09:00,211 INFO RocketmqRemoting - name server address updated. NEW : [rocketmq:9876] , OLD: null
+2024-07-27 21:09:00,219 INFO RocketmqClient - user specified name server address: rocketmq:9876
+2024-07-27 21:09:00,246 INFO RocketmqClient - Created a new client Instance, InstanceIndex:0, ClientID:172.19.0.3@1722085740022, ClientConfig:ClientConfig [namesrvAddr=rocketmq:9876, clientIP=172.19.0.3, instanceName=1722085740022, clientCallbackExecutorThreads=8, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, pullTimeDelayMillsWhenException=1000, unitMode=false, unitName=null, vipChannelEnabled=true, useTLS=false, language=JAVA, namespace=null], ClientVersion:V4_9_0, SerializerType:JSON
+2024-07-27 21:09:00,246 INFO RocketmqClient - Created new MQClientInstance for clientId:[172.19.0.3@1722085740022]
+2024-07-27 21:09:00,264 INFO RocketmqClient - PullMessageService service started
+2024-07-27 21:09:00,265 INFO RocketmqClient - RebalanceService service started
+2024-07-27 21:09:00,268 INFO RocketmqClient - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=true
+2024-07-27 21:09:00,269 INFO RocketmqClient - the client factory [172.19.0.3@1722085740022] start OK
+2024-07-27 21:09:00,269 INFO RocketmqClient - the adminExt [admin_ext_group] start OK
+2024-07-27 21:09:00,272 INFO RocketmqRemoting - new name server is chosen. OLD: null , NEW: rocketmq:9876. namesrvIndex = 43
+2024-07-27 21:09:00,366 DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
+2024-07-27 21:09:00,366 DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
+2024-07-27 21:09:00,366 DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2024-07-27 21:09:00,366 DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2024-07-27 21:09:00,366 DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-07-27 21:09:00,366 DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-07-27 21:09:00,375 INFO RocketmqRemoting - createChannel: begin to connect remote host[rocketmq:9876] asynchronously
+2024-07-27 21:09:00,379 DEBUG io.netty.util.internal.JavassistTypeParameterMatcherGenerator - Generated: io.netty.util.internal.__matchers__.org.apache.rocketmq.remoting.protocol.RemotingCommandMatcher
+2024-07-27 21:09:00,379 DEBUG io.netty.util.internal.JavassistTypeParameterMatcherGenerator - Generated: io.netty.util.internal.__matchers__.org.apache.rocketmq.remoting.protocol.RemotingCommandMatcher
+2024-07-27 21:09:00,389 INFO RocketmqRemoting - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => ocketmq/172.19.0.3:9876
+2024-07-27 21:09:00,392 INFO RocketmqRemoting - createChannel: connect remote host[rocketmq:9876] success, DefaultChannelPromise@78ef9f9f(success)
+2024-07-27 21:09:00,412 DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1d71b60b
+2024-07-27 21:09:00,412 DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1d71b60b
+2024-07-27 21:09:00,478 INFO RocketmqRemoting - createChannel: begin to connect remote host[127.0.0.1:10909] asynchronously
+2024-07-27 21:09:00,479 INFO RocketmqClient - the topic[TBW102] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSysFlag=0]], brokerDatas=[BrokerData [brokerName=broker-a, brokerAddrs={0=127.0.0.1:10911}]], filterServerTable={}]]
+2024-07-27 21:09:00,480 INFO RocketmqRemoting - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 127.0.0.1:10909
+2024-07-27 21:09:00,481 INFO RocketmqRemoting - createChannel: connect remote host[127.0.0.1:10909] success, DefaultChannelPromise@61a48be7(success)
+2024-07-27 21:09:00,482 INFO RocketmqClient - updateTopicPublishInfo prev is not null, TopicPublishInfo [orderTopic=false, messageQueueList=[], sendWhichQueue=ThreadLocalIndex{threadLocalIndex=null}, haveTopicRouterInfo=false]
+2024-07-27 21:09:00,482 INFO RocketmqClient - topicRouteTable.put. Topic = TBW102, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSysFlag=0]], brokerDatas=[BrokerData [brokerName=broker-a, brokerAddrs={0=127.0.0.1:10911}]], filterServerTable={}]]
+2024-07-27 21:09:01,269 INFO RocketmqRemoting - createChannel: begin to connect remote host[127.0.0.1:10911] asynchronously
+2024-07-27 21:09:01,270 INFO RocketmqRemoting - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 127.0.0.1:10911
+2024-07-27 21:09:01,271 INFO RocketmqRemoting - createChannel: connect remote host[127.0.0.1:10911] success, DefaultChannelPromise@33ed213a(success)
+2024-07-27 21:09:01,310 INFO RocketmqClient - send heart beat to broker[broker-a 0 127.0.0.1:10911] success
+2024-07-27 21:09:01,310 INFO RocketmqClient - HeartbeatData [clientID=172.19.0.3@1722085740022, producerDataSet=[ProducerData [groupName=CLIENT_INNER_PRODUCER]], consumerDataSet=[]]
+2024-07-27 21:19:01,265 INFO RocketmqClient - send heart beat to broker[broker-a 0 127.0.0.1:10911] success
+2024-07-27 21:19:01,265 INFO RocketmqClient - HeartbeatData [clientID=172.19.0.3@1722085740022, producerDataSet=[ProducerData [groupName=CLIENT_INNER_PRODUCER]], consumerDataSet=[]]
+2024-07-27 21:29:01,265 INFO RocketmqClient - send heart beat to broker[broker-a 0 127.0.0.1:10911] success
+2024-07-27 21:29:01,265 INFO RocketmqClient - HeartbeatData [clientID=172.19.0.3@1722085740022, producerDataSet=[ProducerData [groupName=CLIENT_INNER_PRODUCER]], consumerDataSet=[]]
+2024-07-27 21:39:01,264 INFO RocketmqClient - send heart beat to broker[broker-a 0 127.0.0.1:10911] success
+2024-07-27 21:39:01,264 INFO RocketmqClient - HeartbeatData [clientID=172.19.0.3@1722085740022, producerDataSet=[ProducerData [groupName=CLIENT_INNER_PRODUCER]], consumerDataSet=[]]
+2024-07-27 21:49:01,264 INFO RocketmqClient - send heart beat to broker[broker-a 0 127.0.0.1:10911] success
+2024-07-27 21:49:01,264 INFO RocketmqClient - HeartbeatData [clientID=172.19.0.3@1722085740022, producerDataSet=[ProducerData [groupName=CLIENT_INNER_PRODUCER]], consumerDataSet=[]]
